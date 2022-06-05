@@ -2,6 +2,6 @@
 pragma solidity ^0.8.7;
 
 contract uhuru {
-    string public kedu = "Ntughari Uche"
+    string public kedu = "Ntughari Uche";
 }
 

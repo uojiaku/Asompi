@@ -72,6 +72,41 @@
       "artifacts": [
         "console"
       ]
+    },
+    "/Users/ojiakuboss/Asompi/SOL_module1/contracts/basic.sol": {
+      "lastModificationDate": 1654411528724,
+      "contentHash": "21a6ccc9138197beabe9ace43ea10112",
+      "sourceName": "contracts/basic.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "uhuru"
+      ]
     }
   }
 }
