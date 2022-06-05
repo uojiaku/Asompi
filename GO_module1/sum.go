@@ -12,5 +12,5 @@ func sum(list []int) int {
 
 func main() {
 	arr := []int{1, 2, 3, 4}
-	fmt.Print(sum(arr))
+	fmt.Print(sum(arr), "\n")
 }
