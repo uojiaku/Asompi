@@ -1,6 +1,6 @@
 # sum
  
- def sum(list):
+def sum(list):
    total = 0
    for i in list:
      total += i
