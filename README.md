@@ -11,6 +11,10 @@ runtime = time it takes to execute a piece of code
 *O(1)* -> constant
 *O(n^2)* -> quadratic
 
+O(1) > O(n) > O(n^2)
+most efficient -> least efficient
+constant > linear > quadratic
+
 Two Number Sum
 Time complexity O(n) - where N represents the length of our input array. 
 It is O(n) time because we're traversing the array only once. 
@@ -20,6 +24,8 @@ Then we're just accessing values in hash table which in going to run in constant
 Space complexity O(n) - because we are adding values to the hash table
 
 Another method would be sorting the data which would take O(nlog(n)) time and O(1) space.
+
+
 
 
 

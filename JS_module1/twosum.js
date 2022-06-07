@@ -1,3 +1,8 @@
+/* 
+   O(1) > O(n) > O(n^2)
+   most efficient -> least efficient
+   constant > linear > quadratic
+*/
 var arr = [3, 5, -4, 8, 11, 1, -1, 6]
 var target = 10
 
