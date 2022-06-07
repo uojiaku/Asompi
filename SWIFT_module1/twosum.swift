@@ -69,3 +69,6 @@ func twosum3(_ array: inout [Int], _ targetSum: Int) -> [Int] {
 }
 
 print(twosum3(&arr, target))
+
+// we return return [leftMost, rightMost] because we can't convert return array[leftPointer] + array[rightPointer]
+
