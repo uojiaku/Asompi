@@ -60,15 +60,26 @@ print(greet("Bill", from: "Cupertino"))
 // inout Parameters
 func swapTwoInts(_ a: inout Int, _ b: inout Int) {
     let temporaryA = a
-    //a = b
-    let temporaryB = b
+    a = b
+    b = temporaryA
 }
 var SomeA = 19
 var someB = 20
     
-swapTwoInts(&SomeA, &someB)
+print(swapTwoInts(&SomeA, &someB))
 print(SomeA, someB)
 
+func TwoInts(_ a: inout Int, _ b: inout Int) {
+    let temporaryA = a
+    a = b
+    b = temporaryA
+}
+var SomA = 19
+var somB = 20
+    
+print(swapTwoInts(&SomeA, &someB))
+
+// 
 
 
 let completion: ((Bool) -> Void) = {value in
