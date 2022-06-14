@@ -28,6 +28,9 @@ Another method would be sorting the data which would take O(nlog(n)) time and O(
 **Twosum -> nested for loop, hashing, sort method.**
 1. what connects a for loop and array is the attached i(teration) to the array index.
 
+**Threesum -> array manipulation**
+1. CurrentSum = CurrentNum + Left + Right
+
 
 
 
