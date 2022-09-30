@@ -22,24 +22,26 @@ const twosum = (array, targetSum) => {
 }
 
 console.log(twosum(arr, target))
-
+// summary: nested for loop & conditional equation
 
 
 // O(n) time | O(n) space
 const twosum2 = (array, targetSum) => {
-    var dict = {}
-    for(var i of array){
-        var potentialMatch = targetSum - i
+    var dict = {}                 // create dictionary
+    for(var i of array){           // look through every value in array
+        var potentialMatch = targetSum - i   // the difference = target - whatever num in the array
         if (potentialMatch in dict){
-            return [potentialMatch, i]
+            return [potentialMatch, i] // if found in dictionary return values
         } else {
-            dict[i] = true
+            dict[i] = true  // populate the dictionary
+            console.log(dict)
        }
     }
     return []
 }
 
 console.log(twosum2(arr, target))
+// summary: dictionary & difference
 
 // O(nLog(n)) time | O(1) Space
 const twosum3 = (array, targetSum) => {
@@ -60,6 +62,8 @@ const twosum3 = (array, targetSum) => {
 }
 
 console.log(twosum3(arr, target))
+// summary: sorting & index
+
 
 /* 
    array.sort((a, b) => a - b)
