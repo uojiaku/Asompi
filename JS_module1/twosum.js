@@ -11,7 +11,7 @@ var target = 10
 const twosum = (array, targetSum) => {
     for(var i = 0; i < array.length - 1; i++){
         var firstNum = array[i]
-        for(var j = i + 1; j < array.length - 1; j++){
+        for(var j = i + 1; j < array.length; j++){
             var secondNum = array[j]
             if (firstNum + secondNum == targetSum) {
                 return [firstNum, secondNum]
