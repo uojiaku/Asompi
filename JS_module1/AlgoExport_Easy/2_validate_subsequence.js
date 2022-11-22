@@ -8,13 +8,16 @@ const isValidSubsequence = (array, sequence) => {
         if (array[arrIndex] === sequence[seqIndex]) 
             seqIndex++;
             arrIndex++;
-            console.log(array[arrIndex], sequence[seqIndex] )
-
-            console.log(seqIndex, arrIndex)
-            console.log(sequence.length)
+            
         
     }
     return seqIndex === sequence.length;
 }
 
 console.log(isValidSubsequence(arr, seq))
+
+// is it a valid subsequence?
+// initialize the indexes
+// while the indexes are less than the length of the array
+//// if the arr num is = seq num, keep incrementing
+// but when finally the number of seqIndex is = to the sequence length, return a true bool
