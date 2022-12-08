@@ -32,3 +32,7 @@ const populateDictionary = (array, tar) => {
 }
 
 console.log(populateDictionary(arr, target))
+
+const ar = [1, 2, 3, 5, 6, 8, 9]
+const sortedSquares = new Array()
+console.log(sortedSquares)
