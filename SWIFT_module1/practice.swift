@@ -18,5 +18,11 @@ let day_of_month = String(cal.component(.day, from: date))
 
 print(day_of_month)
 
+let weekday = String(cal.component(.weekday, from: date))
+let weekInt = Int(weekday) ?? 0
+let arr1 = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] 
+
+print(arr1[weekInt - 1])
+
 
 
