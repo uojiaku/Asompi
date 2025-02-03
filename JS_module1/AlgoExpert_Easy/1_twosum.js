@@ -12,7 +12,7 @@ const twosum = (array, targetSum) => {
     for(var i = 0; i < array.length - 1; i++){
         var firstNum = array[i]
         console.log('here is the firstNum:', firstNum)  // added
-        for(var j = i + 1; j < array.length; j++){  // because j would be undefined if it isn't array.length 
+        for(var j = i + 1; j < array.length; j++){  // because j would be undefined if it isn't array.length, i + 1 because the first value is used for the twosum
             var secondNum = array[j]
             console.log('here is the secondNum', secondNum) // added
             if (firstNum + secondNum == targetSum) {
