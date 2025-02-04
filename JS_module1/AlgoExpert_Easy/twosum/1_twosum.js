@@ -31,9 +31,9 @@ console.log(twosum(arr, target))
 const twosum2 = (array, targetSum) => {
     var dict = {}                 // create dictionary
     for(var i of array){           // look through every value in array
-        var potentialMatch = targetSum - i   // the difference = target - whatever num in the array
-        if (potentialMatch in dict){
-            return [potentialMatch, i] // if found in dictionary return values
+        var difference = targetSum - i   // the difference = target - whatever num in the array
+        if (difference in dict){
+            return [difference, i] // if found in dictionary return values
         } else {
             dict[i] = true  // populate the dictionary
             console.log(dict)
